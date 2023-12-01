@@ -1,7 +1,7 @@
 # osirion public api
 > the api for fortnite match data 💚
 
-the osirion public api lets you access match data from uploaded client replays and server replays (tournament matches).
+the osirion public api makes it easy to access match data from uploaded client replays and server replays (tournament matches), without needing an up-to-date parser of your own.
 
 ## prerequisites
 
@@ -9,7 +9,7 @@ to use the api, you need to:
 
 - create an osirion account on [our website](https://osirion.gg)
 - generate an api key under [account settings](https://osirion.gg/app/settings)
-- purchase some api credits under[account settings](https://osirion.gg/app/settings)
+- load up on some api credits under [account settings](https://osirion.gg/app/settings)
 
 once done, you can use the api via REST endpoints or via the [``@osirion/api`` npm package (for JS/TS)](https://www.npmjs.com/package/@osirion/api).
 
