@@ -16,7 +16,9 @@ once done, you can use the api via REST endpoints or via the [``@osirion/api`` n
 each api call costs credits, and 1000 credits is about equal to €1.
 
 - uploading replays costs 20 credits (~€0.02).
-- every other api call costs 1 credit (~€0.001).
+- ping costs 1 credit per request (0.001€).
+- every other request is charged based on a pay-as-you-go compute model. credits are charged per second of compute used, with a 10-second minimum.
+- match event endpoints are charged the same way, but scaled with the number of events being requested. with a maximum of 8 events being charged.
 
 note that this is subject to change as we develop the api further.
 
